@@ -1,14 +1,17 @@
 nav_list_title: Navigation List
 links:
 
-- title: About
-  url: about.html
+- title: Home
+  url: index.html
+
+# - title: About
+#   url: about.html
 
 - title: Publications
   url: publications.html
 
-- title: Blog
-  url: blog.html
+# - title: Blog
+#   url: blog.html
 
 - title: Vitae
   url: /assets/pdf/vitae.pdf

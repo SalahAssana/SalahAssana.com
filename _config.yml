@@ -8,30 +8,30 @@
 # -----------BASE SETTINGS---------------#
 #========================================#
 
-title: 
+title: Salah Assana | Portfolio Website
 email: 
 description: My Personal Website
 baseurl:                                       # the subpath of your site, e.g. /blog
-url:           # the base hostname & protocol for your site, e.g. http://example.com
+url: https://salahassana.com          # the base hostname & protocol for your site, e.g. http://example.com
 image: /assets/img/dumbarton.png               # used to generate site link preview
 image_alt: A minimalistic jekyll theme for academic    # image description
 
 # =======================================#
 # -----------SITE SETTINGS---------------#
 #========================================#: 
-author: John Doe 
+author: Salah Assana 
 profile_image: /assets/img/avatar/cropped.png #/assets/img/avatar/avatar.jpg 
-occupation: 
+occupation: Research Assistant
 snippet:
-twitter: tbutler0x90
-github: tcbutler320
-linkedin: tyler-b-a700a1aa
-stackoverflow: '12935605'
-website: https://tbutler.org
+twitter: SalahAssana
+github: SalahAssana
+linkedin: salah-assana-7690ba113
+stackoverflow: '7297767'
+website: https://salahassana.com
 codepen: 
 medium: 
-email: developer.tbutler@gmail.com
-keybase: tbutler320
+email: sassana@bidmc.virginia.edu
+keybase: SalahAssana
 pgp: 
 ctftime: 
 phonenumber: 

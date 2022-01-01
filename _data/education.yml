@@ -1,0 +1,20 @@
+- School: Massachusetts Institute of Technology
+  Degree: Master of Science
+  Program: 
+  StartDate: Sep 2018
+  EndDate: August 2020
+  Icon: /assets/img/icons/2x/mit.png      # Make this icon small, think 30px/30px
+
+- School: University of Virginia
+  Degree: Baccalaureate in Computer Science
+  Program: 
+  StartDate: Sep 2015
+  EndDate: May 2017
+  Icon: /assets/img/icons/2x/uva.png      # Make this icon small, think 30px/30px
+
+- School: Northern Virginia Community College
+  Degree: Associate in Computer Science
+  Program: 
+  StartDate: Sep 2013
+  EndDate: May 2015
+  Icon: /assets/img/icons/2x/nova.png      # Make this icon small, think 30px/30px

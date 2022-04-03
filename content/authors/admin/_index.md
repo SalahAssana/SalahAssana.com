@@ -54,7 +54,7 @@ social:
   link: https://github.com/SalahAssana
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/salah-assana-136691236/
+  link: https://www.linkedin.com/in/SalahAssana
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 

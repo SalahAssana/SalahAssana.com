@@ -31,8 +31,8 @@ jobs:
       - name: Install JS dependencies
         run: rm -rf node_modules && yarn install --frozen-lockfile
 
-      - name: Check for linting errors
-        run: yarn run lint
+      # - name: Check for linting errors
+      #   run: yarn run lint
 
 #  format:
 #    runs-on: ubuntu-latest

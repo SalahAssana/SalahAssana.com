@@ -1,11 +1,10 @@
-*.gem
-.bundle
-.jekyll-cache
-.sass-cache
-_site
-Gemfile.lock
+# IDEs
+.idea/
 
-# Demo Site 
-/Demo
-*.sh 
-*.xml
+# Hugo
+resources/
+public/
+jsconfig.json
+node_modules/
+go.sum
+.hugo_build.lock

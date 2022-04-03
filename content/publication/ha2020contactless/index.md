@@ -42,7 +42,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://dl.acm.org/doi/pdf/10.1145/3161198'
+url_pdf: 'https://dl.acm.org/doi/10.1145/3372224.3419982'
 url_code: 'https://github.com/SalahAssana/5G-SCG'
 url_dataset: ''
 url_poster: ''

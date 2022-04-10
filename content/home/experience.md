@@ -26,7 +26,7 @@ experience:
     company: Harvard Medical School
     company_url: 'https://hms.harvard.edu/'
     company_logo: hms
-    location: Bostonm, MA
+    location: Boston, MA
     date_start: '2021-01-01'
     date_end: ''
     description: |2-

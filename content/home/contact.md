@@ -25,7 +25,7 @@ content:
       captcha: false
 
   # Contact details (edit or remove options as required)
-  email: salahmassana@gmail.com
+  email: sassana@bidmc.harvard.edu
   phone: 617 667 2177
   address:
     street: 330 Brookline Ave 

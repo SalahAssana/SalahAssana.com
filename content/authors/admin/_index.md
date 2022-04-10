@@ -70,7 +70,7 @@ email: ""
 highlight_name: true
 ---
 
-I am a Computer Science and Healthcare enthusiast with a background in research and software engineering. I have worked as a Research Assistant (RA) since 2015 at several laboratories including UVA, MIT and HMS.
+I am a Computer Science and Healthcare enthusiast with a background in research and software engineering. I have worked as a Research Assistant (RA) since 2015 at several laboratories including [UVA Link Lab](https://engineering.virginia.edu/link-lab), [MIT Media Lab](https://www.media.mit.edu/) and [HMS Cardiac MR Center](https://cardiacmr.hms.harvard.edu/).
 
 My research spans across signal processing, machine learning and medical imaging. I have published to ACM conferences including UbiComp and MobiCom as well as medical journals including JACC, JCMR and ISMRM.
 

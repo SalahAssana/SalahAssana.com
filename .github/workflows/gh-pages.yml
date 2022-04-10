@@ -1,79 +1,32 @@
-name: Continuous Integration
+name: github pages
 
 on:
   push:
     branches:
-      - main
+      - main  # Set a branch to deploy
   pull_request:
-    branches:
-      - main
 
 jobs:
-  build:
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node-version: [15.x]
-
+  deploy:
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: true  # Fetch any Git submodules (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Install JS dependencies
-        run: rm -rf node_modules && yarn install --frozen-lockfile
-
-      # - name: Check for linting errors
-      #   run: yarn run lint
-
-#  format:
-#    runs-on: ubuntu-latest
-#
-#    steps:
-#      - name: Checkout
-#        uses: actions/checkout@v2
-#        with:
-#          # Make sure the actual branch is checked out when running on pull requests
-#          ref: ${{ github.head_ref }}
-#
-#      - name: Prettify code
-#        uses: creyD/prettier_action@v3.1
-#        with:
-#          prettier_options: '--write wowchemy/*.{css,js,json,md,scss} wowchemy/**/*.{css,js,json,md,scss}' # Match package.json
-#          prettier_version: '2.2.1' # Match package.json
-#          commit_message: 'refactor: format code'
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  hugo:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: true  # Fetch any Git submodules (true OR recursive)
+          submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.95.0'
-          extended: true
+          hugo-version: 'latest'
+          # extended: true
 
       - name: Build
         run: hugo --minify
-        
-  github-pages:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: helaili/jekyll-action@v2
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

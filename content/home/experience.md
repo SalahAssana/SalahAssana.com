@@ -7,7 +7,7 @@ widget: experience
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 70
 
 title: Experience
 subtitle:
@@ -29,8 +29,8 @@ experience:
     location: Boston, MA
     date_start: '2021-01-01'
     date_end: ''
-    description: |2-
-        
+    description: |3-
+
         * Increased the speed of a free-breathing, free-running perfusion sequence by 1000\% using deep learning.
         * Deployed ML models on Siemens scanner for real-time data processing using FIRE framework.
         * Collaborated with MRI technicians to add-on experimental scans to clinical patients.

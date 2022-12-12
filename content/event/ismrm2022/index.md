@@ -13,7 +13,7 @@ address:
   country: United Kingdom
 
 summary: Radial Perfusion Cardiac Magnetic Resonance Imaging Using Deep Learning Image Reconstruction
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+abstract: "Myocardial perfusion assessment using cardiac MRI allows non-invasive assessment of myocardial ischemia. In myocardial perfusion sequence, imaging is collected after a saturation pulse. An alternative approach based on steady-state imaging with radial sampling has been recently proposed. However, image reconstruction using compressed sensing in steady-state myocardial perfusion remains long and clinically not feasible. In this study, we sought to develop a deep learning-based image reconstruction platform for myocardial perfusion imaging."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

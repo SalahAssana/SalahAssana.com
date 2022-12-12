@@ -1,43 +1,38 @@
 ---
-title: "An Explainable Machine Learning Approach Reveals Prognostic Significance of Right Ventricular Dysfunction in Nonischemic Cardiomyopathy   "
+title: "Improving accuracy of myocardial T1 estimation in MyoMapNet"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- admin
 - Manuel Morales
-- Kei Nakata
-- Eiryu Sai
-- Amine Amyar
-- Hassan Haji-Valizadeh
-- Reza Nezafat
+- admin
 
 # Author notes (optional)
 author_notes: ""
 
-date: "2022-05-01T00:00:00Z"
+date: "2022-08-11T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-05-01T00:00:00Z"
+publishDate: "2022-08-11T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *International Society for Magnetic Resonance*
-publication_short: In *ISMRM*
+publication: In *Journal of Cardiovascular Magnetic Resonance*
+publication_short: In *JCMR*
 
-abstract: Myocardial perfusion assessment using cardiac MRI allows non-invasive asseessmnet of myocardial ischmia. In myocardial perfusion sequence, imaging is collected after a saturation pulse. An alternative approach based on stready-state imaging with radial sampling has been recently proposed. However, image reconstruction using compressed sensing in steady-state myocardial perfusion remains long and clinically not feasible. In this study, we sought to develop a deep learning-based image recosntruciton platform for myocardial perfusion imaging.
+abstract: Exercise cardiovascular magnetic resonance (Ex-CMR) is a promising stress imaging test for coronary artery disease (CAD). However, Ex-CMR requires accelerated imaging techniques that result in significant aliasing artifacts. Our goal was to develop and evaluate a free-breathing and electrocardiogram (ECG)-free real-time cine with deep learning (DL)-based radial acceleration for Ex-CMR. A 3D (2D + time) convolutional neural network was implemented to suppress artifacts from aliased radial cine images. The network was trained using synthetic real-time radial cine images simulated using breath-hold, ECG-gated segmented Cartesian k-space data acquired at 3 T from 503 patients at rest. A prototype real-time radial sequence with acceleration rate = 12 was used to collect images with inline DL reconstruction. Performance was evaluated in 8 healthy subjects in whom only rest images were collected.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: To develop and evaluate a free-breathing and electrocardiogram-free real-time cine with deep learning-based radial acceleration for Ex-CMR.
 
-tags: [cardiovascular-magnetic-resonance, machine-learning, perfusion]
+tags: [exercise-cmr, stress-imaging, cardiology, machine-learning, medical-imaging]
 
 # Display this page in the Featured widget?
 featured: false
@@ -47,9 +42,9 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
-url_dataset: ''
+url_pdf: 'https://cardiacmr.hms.harvard.edu/files/cardiacmr/files/morales_et_al_jcmr_2022.pdf'
+url_code: 'https://github.com/HMS-CardiacMR/DRAPR'
+url_dataset: 'https://dataverse.harvard.edu/dataverse/cardiacmr'
 url_poster: ''
 url_project: ''
 url_slides: ''

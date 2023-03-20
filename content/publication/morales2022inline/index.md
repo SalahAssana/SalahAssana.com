@@ -1,5 +1,5 @@
 ---
-title: "Improving accuracy of myocardial T1 estimation in MyoMapNet"
+title: "An inline deep learning based free-breathing ECG-free cine for exercise cardiovascular magnetic resonance"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -42,7 +42,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://cardiacmr.hms.harvard.edu/files/cardiacmr/files/morales_et_al_jcmr_2022.pdf'
+url_pdf: 'https://jcmr-online.biomedcentral.com/articles/10.1186/s12968-022-00879-9'
 url_code: 'https://github.com/HMS-CardiacMR/DRAPR'
 url_dataset: 'https://dataverse.harvard.edu/dataverse/cardiacmr'
 url_poster: ''

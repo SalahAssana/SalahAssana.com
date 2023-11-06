@@ -70,10 +70,6 @@ email: ""
 highlight_name: true
 ---
 
-I am a Artificial Intelligence and Healthcare enthusiast with a background in machine learning, signal processing and medical imaging. I have worked as a Research Assistant (RA) since 2015 at several laboratories including [UVA Link Lab](https://engineering.virginia.edu/link-lab), [MIT Media Lab](https://www.media.mit.edu/) and [HMS Cardiac MR Center](https://cardiacmr.hms.harvard.edu/).
-
-I have published in ACM conferences [UbiComp](https://dl.acm.org/conference/ubicomp) and [MobiCom](https://dl.acm.org/conference/mobicom). As well as medical conference including [ISMRM](https://www.ismrm.org/) and [SCMR](https://scmr.org/).
-
-I have also published to several journal including [Radiology](https://pubs.rsna.org/journal/radiology), [MRM](https://onlinelibrary.wiley.com/journal/15222594), [JMRI](https://onlinelibrary.wiley.com/journal/15222586), [JCMR](https://jcmr-online.biomedcentral.com/), [JACC](https://www.jacc.org/journal/imaging), and [NMR in Biomedicine](https://analyticalsciencejournals.onlinelibrary.wiley.com/journal/10991492).
+I am a Artificial Intelligence and Healthcare enthusiast with a background in machine learning, signal processing and medical imaging. I have worked as a Research Assistant (RA) since 2015 at several laboratories including [UVA Link Lab](https://engineering.virginia.edu/link-lab), [MIT Media Lab](https://www.media.mit.edu/) and [HMS Cardiac MR Center](https://cardiacmr.hms.harvard.edu/). My work has been published to several journals including JMRI, MRM, and Radiology as well academic conferences including ISMRM, SCMR, and MobiCom.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/my_cv.pdf" "newtab" >}}resumé{{< /staticref >}}.

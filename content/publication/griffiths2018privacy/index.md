@@ -25,7 +25,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*
-publication_short: In *IMWUT*
+publication_short: In *UbiComp*
 
 abstract: Today, cameras and digital image processing are transforming industries and the human environment with rich, informative sensing. However, image processing is not utilized nearly as much in homes where concerns about image privacy dominate. In a preliminary study with 200 participants, we found 21% would reject a camera based system even if the system was designed to not report images as they could still be collected if the camera system was hacked. In this paper, we demonstrate a hardware-based approach for privacy-preserving image processing, the ability to automatically extract information from imaging sensors without the risk of compromising image privacy, even if the system is hacked. The basic idea is to limit both the memory available on board the camera and the data rate of camera communication to prevent a full image from ever being extracted. As a proof of concept, we prototype a system, called Lethe, that tracks and identifies individuals by height with a thermal camera as they move from room to room. Our results show that Lethe can detect the presence of individuals with 96.9% accuracy and determine their direction of travel with 99.7% accuracy. Additionally, Lethe can identify individuals 96.0% of the time with a 5cm (~2in) or greater difference in walking height and 92.9% with a 2.5cm (~1in) or greater difference. Finally, Lethe performs this processing with only 33 bytes of memory (or 0.69% of the full thermal image).
 

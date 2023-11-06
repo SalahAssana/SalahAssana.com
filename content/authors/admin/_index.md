@@ -6,7 +6,7 @@ title: Salah Assana
 superuser: true
 
 # Role/position/tagline
-role: Research Assistant
+role: Research Assistant ll
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -14,13 +14,13 @@ organizations:
   url: https://hms.harvard.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include signal processing, cardiology and artificial intelligence.
+bio: I am a Artificial Intelligence and Healthcare enthusiast with a background in machine learning, signal processing and medical imaging.
 
 # Interests to show in About widget
 interests:
-- Medical Imaging
-- Signal Processing
 - Artificial Intelligence
+- Signal Processing
+- Medical Imaging
 
 # Education to show in About widget
 education:
@@ -70,8 +70,10 @@ email: ""
 highlight_name: true
 ---
 
-I am a Computer Science and Healthcare enthusiast with a background in research and software engineering. I have worked as a Research Assistant (RA) since 2015 at several laboratories including [UVA Link Lab](https://engineering.virginia.edu/link-lab), [MIT Media Lab](https://www.media.mit.edu/) and [HMS Cardiac MR Center](https://cardiacmr.hms.harvard.edu/).
+I am a Artificial Intelligence and Healthcare enthusiast with a background in machine learning, signal processing and medical imaging. I have worked as a Research Assistant (RA) since 2015 at several laboratories including [UVA Link Lab](https://engineering.virginia.edu/link-lab), [MIT Media Lab](https://www.media.mit.edu/) and [HMS Cardiac MR Center](https://cardiacmr.hms.harvard.edu/).
 
-My research spans across signal processing, machine learning and medical imaging. I have published to ACM conferences including UbiComp and MobiCom as well as medical journals including JACC, JCMR and ISMRM.
+I have published in ACM conferences [UbiComp](https://dl.acm.org/conference/ubicomp) and [MobiCom](https://dl.acm.org/conference/mobicom). As well as medical conference including [ISMRM](https://www.ismrm.org/) and [SCMR](https://scmr.org/).
+
+I have also published to several journal including [Radiology](https://pubs.rsna.org/journal/radiology), [MRM](https://onlinelibrary.wiley.com/journal/15222594), [JMRI](https://onlinelibrary.wiley.com/journal/15222586), [JCMR](https://jcmr-online.biomedcentral.com/), [JACC](https://www.jacc.org/journal/imaging), and [NMR in Biomedicine](https://analyticalsciencejournals.onlinelibrary.wiley.com/journal/10991492).
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/my_cv.pdf" "newtab" >}}resumé{{< /staticref >}}.

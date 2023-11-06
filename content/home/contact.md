@@ -47,10 +47,10 @@ content:
       icon_pack: fab
       name: DM Me
       link: 'https://twitter.com/SalahAssana'
-    - icon: video
-      icon_pack: fas
-      name: Zoom Me
-      link: 'https://zoom.com'
+    # - icon: video
+    #   icon_pack: fas
+    #   name: Zoom Me
+    #   link: 'https://zoom.com'
 
 design:
   columns: '2'

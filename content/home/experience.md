@@ -31,9 +31,9 @@ experience:
     date_end: ''
     description: |2-
     
-        * Increased the speed of a free-breathing, free-running perfusion sequence by 1000\% using deep learning.
-        * Deployed ML models on Siemens scanner for real-time data processing using FIRE framework.
-        * Collaborated with MRI technicians to add-on experimental scans to clinical patients.
+        * Became proficient in operating Siemens Vida 3T scanner, with authorization to perform independent scans.
+        * Contributed to the development of ML models for accelerated imaging, denoising, and heart function analysis.
+        * Deployed ML models on Siemens scanner for real-time data processing using prototype OpenRecon framework.
         
   - title: Research Assistant
     company: MIT Media Lab

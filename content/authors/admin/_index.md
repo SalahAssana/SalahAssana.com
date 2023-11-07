@@ -70,6 +70,6 @@ email: ""
 highlight_name: true
 ---
 
-I am a Artificial Intelligence and Healthcare enthusiast with a background in machine learning, signal processing and medical imaging. I have worked as a Research Assistant (RA) since 2015 at several laboratories including [UVA Link Lab](https://engineering.virginia.edu/link-lab), [MIT Media Lab](https://www.media.mit.edu/) and [HMS Cardiac MR Center](https://cardiacmr.hms.harvard.edu/). My work has been published to several journals including JMRI, MRM, and Radiology as well academic conferences including ISMRM, SCMR, and MobiCom.
+I am a Artificial Intelligence and Healthcare enthusiast with a background in machine learning, signal processing and medical imaging. I have worked as a Research Assistant (RA) since 2015 at several laboratories including [UVA Link Lab](https://engineering.virginia.edu/link-lab), [MIT Media Lab](https://www.media.mit.edu/) and [HMS Cardiac MR Center](https://cardiacmr.hms.harvard.edu/). My work has been published to several journals and conferences including JMRI, MRM, Radiology, ISMRM, MobiCom, and UbiComp.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/my_cv.pdf" "newtab" >}}resumé{{< /staticref >}}.

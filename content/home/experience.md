@@ -48,7 +48,7 @@ experience:
         * Used C++ Boost library to enable the use of multiple sensors concurrently and allow for real-time data evaluation.
         * Used MATLAB to filter signal and analyze the cardiac data for signs of heart illnesses.
 
-  - title: Software Engineer
+  - title: Machine Learning Engineer
     company: Booz Allen Hamilton
     company_url: 'https://www.boozallen.com/'
     company_logo: bah

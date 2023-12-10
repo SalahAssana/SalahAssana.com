@@ -53,8 +53,8 @@ experience:
     company_url: 'https://www.boozallen.com/'
     company_logo: bah
     location: Tysons, VA
-    date_start: '2018-09-01'
-    date_end: '2020-05-31'
+    date_start: '2017-09-01'
+    date_end: '2018-08-31'
     description: |2-
         
         * Worked as full stack developer on a scrum team with C\# and JavaScript libraries like AngularJS \& Backbone.

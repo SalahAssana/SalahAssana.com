@@ -1,28 +1,28 @@
 ---
-title: ISMRM 2022
+title: ISMRM 2024
 
-event: ISMRM 2022
-event_url: https://www.ismrm.org/22m/
+event: ISMRM 2024
+event_url: https://www.ismrm.org/24m/
 
-location: ExCeL London
+location: Suntec Singapore Convention & Exhibition Centre
 address:
-  street: 1 Western Gateway
-  city: Londaon
-  region: England
-  postcode: ''
-  country: United Kingdom
+  street: 1 Raffles Blvd
+  city: Singapore
+  region: Singapore
+  postcode: 039593
+  country: Singapore
 
-summary: Radial Perfusion Cardiac Magnetic Resonance Imaging Using Deep Learning Image Reconstruction
-abstract: "Myocardial perfusion assessment using cardiac MRI allows non-invasive assessment of myocardial ischemia. In myocardial perfusion sequence, imaging is collected after a saturation pulse. An alternative approach based on steady-state imaging with radial sampling has been recently proposed. However, image reconstruction using compressed sensing in steady-state myocardial perfusion remains long and clinically not feasible. In this study, we sought to develop a deep learning-based image reconstruction platform for myocardial perfusion imaging."
+summary: An Open-source, Flexible, Plug-and-Play Inline CMR Image Segmentation Platform
+abstract: "This platform facilitates the rapid development and evaluation of any segmentation algorithm in a transparent and reproducible fashion. An open-source, flexible, plug-and-play inline CMR segmentation platform will enable rapid testing and evaluation of new segmentation and analysis algorithms."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2022-05-07T13:00:00Z'
-date_end: '2022-05-12T13:00:00Z'
+date: '2024-05-07T13:00:00Z'
+date_end: '2024-05-12T13:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2022-06-01T00:00:00Z'
+publishDate: '2024-06-01T00:00:00Z'
 
 authors: []
 tags: []
@@ -31,7 +31,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'ISMRM 2022'
+  caption: 'ISMRM 2024'
   focal_point: Right
 
 links:
@@ -39,10 +39,10 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/SalahAssana
-url_code: "https://github.com/HMS-CardiacMR/DRAPR"
-url_pdf: "https://archive.ismrm.org/2022/4902.html"
+url_code: "https://github.com/HMS-CardiacMR/CineROI"
+url_pdf: ""
 url_slides: ""
-url_video: "https://www.youtube.com/watch?v=2r85g0-Mwis"
+url_video: "https://www.youtube.com/watch?v=xXq2MP6QKv4"
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

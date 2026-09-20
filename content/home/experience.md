@@ -22,18 +22,31 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Research Assistant II
-    company: Harvard Medical School
-    company_url: 'https://hms.harvard.edu/'
-    company_logo: hms
+  - title: Research Assistant III
+    company: Massachusetts General Hospital
+    company_url: 'https://www.massgeneralbrigham.org/'
+    company_logo: mgh
     location: Boston, MA
-    date_start: '2021-01-01'
+    date_start: '2024-04-01'
     date_end: ''
     description: |2-
     
-        * Became proficient in operating Siemens Vida 3T scanner, with authorization to perform independent scans.
-        * Contributed to the development of ML models for accelerated imaging, denoising, and heart function analysis.
-        * Deployed ML models on Siemens scanner for real-time data processing using prototype OpenRecon framework.
+        * Developing a reinforcement learning method, driven by an MRI physics simulator, to discover MR Fingerprinting sequences for ultra-low-field portable MRI. Hand-designed clinical schedules don't transfer to this regime.
+        * Building a lung parenchyma segmentation model trained entirely on synthetic anatomical data. This sidesteps the ground-truth bottleneck, since parenchyma is hard to distinguish visually from pulmonary vasculature.
+        * Developing a cardiac MRI segmentation model trained exclusively on synthetic images with randomized contrast and resolution. This makes it robust to the contrast variability across cardiac protocols.
+
+  - title: Research Assistant II
+    company: Beth Israel Deaconess Medical Center
+    company_url: 'https://bidmc.org/'
+    company_logo: bidmc
+    location: Boston, MA
+    date_start: '2021-01-01'
+    date_end: '2024-03-31'
+    description: |2-
+    
+        * Created MyoMapNet, a physics-informed network that cut cardiac T1 mapping from 17 heartbeats to 4, or 2 minutes to under 12 seconds. Validated in a multi-center study, deployed inline via Siemens OpenRecon, and open-sourced.
+        * Built DRAPR, a 3D U-Net for 12x-accelerated real-time cardiac cine under stress. Enforcing data consistency against raw multi-coil k-space fixed a failure where image-domain training suppressed real motion.
+        * Developed REGAIN, a resolution-enhancement GAN for cardiac cine. Training through the scanner's own parallel-imaging pipeline closed the simulation-to-real gap, enabling 13.6- to 16-fold effective acceleration.
         
   - title: Research Assistant
     company: MIT Media Lab
@@ -44,9 +57,9 @@ experience:
     date_end: '2020-05-31'
     description: |2-
         
-        * Developed a novel mmWave sensor capable of contactless cardiovascular activity monitoring.
-        * Used C++ Boost library to enable the use of multiple sensors concurrently and allow for real-time data evaluation.
-        * Used MATLAB to filter signal and analyze the cardiac data for signs of heart illnesses.
+        * Invented a contactless mmWave sensor that records a seismocardiogram without a contact accelerometer. A differential filter separates periodic cardiac motion from aperiodic body motion.
+        * Built a C++/Boost pipeline for real-time, concurrent multi-sensor acquisition. Used MATLAB to analyze the cardiac signal for markers of atrial fibrillation and ischemia.
+        * Published as co-first author at ACM MobiCom 2020, a flagship mobile systems venue. The work became my master's thesis on contactless cardiovascular monitoring with mmWaves.
 
   - title: Machine Learning Engineer
     company: Booz Allen Hamilton
@@ -57,9 +70,9 @@ experience:
     date_end: '2018-08-31'
     description: |2-
         
-        * Worked as full stack developer on a scrum team with C\# and JavaScript libraries like AngularJS \& Backbone.
-        * Used Hadoop and Hive to build a scalable distributed data lake on AWS.
-        * Built a abstractive text summarization tool using TensorFlow, NumPy, Pandas and Pyrouge
+        * Independently designed an abstractive text-summarization tool (bidirectional LSTM with attention) after finding that no existing tool met requirements. Built in TensorFlow, NumPy, and Pandas and evaluated with Pyrouge.
+        * Architected a scalable, distributed data lake on AWS using Hadoop and Hive. It gave the team a foundation for storing and querying large datasets.
+        * Served as a full-stack developer on a scrum team, building with C\# and JavaScript frameworks including AngularJS \& Backbone. Delivered features end to end within sprint cycles.
 
   - title: Research Assistant
     company: UVA Link Lab
@@ -70,9 +83,9 @@ experience:
     date_end: '2017-05-31'
     description: |2-
         
-        * Introduced a new doorway sensor capable of determine travel direction with 99.7\% accuracy.
-        * Wrote multi-threaded C driver to increase speed of sensor by 3000\% \& reduced energy consumption by 50\%.
-        * Develop optical flow based tracking algorithm robust to illumination changes \& background movement in Python.
+        * Designed a privacy-preserving doorway sensor using a binocular thermal camera, classifying direction of travel with 99.7\% accuracy. Images are processed on-device, so no identifiable data is transmitted.
+        * Built a physics-grounded synthetic-data pipeline that renders thermal images from Planckian blackbody radiance and tissue emissivity. Standard augmentation failed to preserve the fidelity needed to generalize to real captures.
+        * Rewrote the camera driver in branchless C and designed an optical flow algorithm using just 33 bytes of working memory on an 8-bit ATtiny. Throughput rose 3000\% while energy use fell 50\%.
 
 design:
   columns: '2'

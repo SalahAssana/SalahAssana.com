@@ -25,23 +25,22 @@ content:
   #     captcha: false
 
   # Contact details (edit or remove options as required)
-  email: sassana@bidmc.harvard.edu
-  phone: 617 667 2178
+  email: sassana@mgh.harvard.edu
+  phone: 617 724 0225
   address:
-    street: 330 Brookline Ave 
-    city: Boston
+    street: 149 13th St
+    city: Charlestown
     region: MA
-    postcode: '02215'
+    postcode: '02129'
     country: United States
     country_code: US
   coordinates:
-    latitude: '42.339587'
-    longitude: '-71.104494'
-  directions: Enter East Campus and take the Gryzmish Elevators to Floor 4
-  # office_hours:
-  #   - 'Monday 10:00 to 13:00'
-  #   - 'Wednesday 09:00 to 10:00'
-  # appointment_url: 'https://calendly.com'
+    latitude: '42.377658'
+    longitude: '-71.051811'
+  directions: Athinoula A. Martinos Center for Biomedical Imaging
+  office_hours:
+    - 'Friday 17:00 to 18:00'
+  appointment_url: 'https://calendly.com'
   contact_links:
     - icon: twitter
       icon_pack: fab

@@ -6,34 +6,34 @@ title: Salah Assana
 superuser: true
 
 # Role/position/tagline
-role: Research Assistant ll
+role: Research Assistant III
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Harvard Medical School
-  url: https://hms.harvard.edu/
+- name: Massachusetts General Hospital
+  url: https://www.massgeneralbrigham.org/
 
 # Short bio (displayed in user profile at end of posts)
 bio: I am a Artificial Intelligence and Healthcare enthusiast with a background in machine learning, signal processing and medical imaging.
 
-# Interests to show in About widget
-interests:
-- Artificial Intelligence
-- Signal Processing
-- Medical Imaging
+# # Interests to show in About widget
+# interests:
+# - Artificial Intelligence
+# - Signal Processing
+# - Medical Imaging
 
-# Education to show in About widget
-education:
-  courses:
-  - course: Master of Science
-    institution: Massachusetts Institute of Technology
-    year: 2020
-  - course: BS in Computer Science
-    institution: University of Virginia
-    year: 2017
-  - course: AS in Computer Science
-    institution: Northern Virginia Community College
-    year: 2015
+# # Education to show in About widget
+# education:
+#   courses:
+#   - course: Master of Science
+#     institution: Massachusetts Institute of Technology
+#     year: 2020
+#   - course: BS in Computer Science
+#     institution: University of Virginia
+#     year: 2017
+#   - course: AS in Computer Science
+#     institution: Northern Virginia Community College
+#     year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -43,12 +43,12 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '/#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/SalahAssana
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
+- icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
+  icon_pack: ai
   link: https://scholar.google.com/citations?user=xMzMUTkAAAAJ&hl=en&oi=ao
+- icon: x-twitter
+  icon_pack: fab
+  link: https://x.com/SalahAssana
 - icon: github
   icon_pack: fab
   link: https://github.com/SalahAssana
@@ -70,6 +70,8 @@ email: ""
 highlight_name: true
 ---
 
-I am an Artificial Intelligence and Healthcare enthusiast with a background in machine learning, signal processing and medical imaging. I have worked as a Research Assistant (RA) since 2015 at several laboratories including the [UVA Link Lab](https://engineering.virginia.edu/link-lab), [MIT Media Lab](https://www.media.mit.edu/) and [HMS Cardiac MR Center](https://cardiacmr.hms.harvard.edu/). My work has been published to several journals and conferences including JMRI, MRM, Radiology, ISMRM, MobiCom, and UbiComp.
+I am a researcher working on physics-exact machine learning for medical imaging. Image reconstruction and analysis are inverse problems governed by known physics, yet most learned methods treat that physics as a soft prior, encouraged through loss terms but never guaranteed. My work asks what becomes possible when the physics of acquisition is a hard constraint of the model itself. Machine learning can only be safely integrated into clinical imaging if it is free from hallucinations, and physics is the constraint I use to get there.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/my_cv.pdf" "newtab" >}}resumé{{< /staticref >}}.
+Beyond research, I care a lot about helping more students access higher education through [The College Grind](https://collegegrind.org/), where I share practical, honest advice on choosing a college, paying for it, and getting through it.
+
+Reach out if you want to collaborate, have a question, or could use some advice.

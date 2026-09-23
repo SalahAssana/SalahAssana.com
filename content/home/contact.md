@@ -40,7 +40,7 @@ content:
   directions: Athinoula A. Martinos Center for Biomedical Imaging
   office_hours:
     - 'Friday 17:00 to 18:00'
-  appointment_url: 'https://calendly.com'
+  appointment_url: 'https://calendly.com/sassana-mgh/30min'
   contact_links:
     - icon: twitter
       icon_pack: fab

@@ -70,7 +70,7 @@ email: ""
 highlight_name: true
 ---
 
-I am a researcher working on physics-exact machine learning for medical imaging. Image reconstruction and analysis are inverse problems governed by known physics, yet most learned methods treat that physics as a soft prior, encouraged through loss terms but never guaranteed. My work asks what becomes possible when the physics of acquisition is a hard constraint of the model itself. Machine learning can only be safely integrated into clinical imaging if it is free from hallucinations, and physics is the constraint I use to get there.
+I am a researcher working on physics-exact machine learning for medical imaging. While standard deep learning treats physical laws as soft priors encouraged through loss terms but easily broken. My work embeds the physics of acquisition directly into the model architecture as hard constraints. For machine learning to be safely integrated into clinical practice, it must be free from hallucinations, and exact physics is the constraint I use to get there.
 
 Beyond research, I care a lot about helping more students access higher education through [The College Grind](https://collegegrind.org/), where I share practical, honest advice on choosing a college, paying for it, and getting through it.
 
